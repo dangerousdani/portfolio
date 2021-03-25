@@ -3,7 +3,7 @@
     <meta name="description" content="Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="design, portfolio, brand, user experience, user interface, illustration, webdesign," />
-	<title>Daniela Vogel</title>
+	<title>Die allerbeste Daniela Vogel 😘</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/_general/Logo-yellow.svg">
