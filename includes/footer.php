@@ -1,6 +1,6 @@
 <footer class="new-footer">
 		<div><small>&copy; Copyright 2021 – Daniela Vogel</small></div>
-		<div><a href="imprint.php">Imprint</a></div>
+		<div><a class="imprint" href="imprint.php">Imprint</a></div>
 	<div class="gototop js-top">
         <a href="#" class="svgc-go-top">
 		<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">

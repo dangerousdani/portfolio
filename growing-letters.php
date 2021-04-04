@@ -17,12 +17,10 @@
     <div class="container first-container">
         <div class="text-container">
             <div class="animate-box">
-                <h1>Shaped by news</h1>
-                <h2 class="subline">Main project HTW Berlin – Moritz Schell</h2>
+                <h1>The growing letters</h1>
+                <h2 class="subline">Case Study</p>
                 <p class="p-header">
-                    Together with Thao Phan we created an interactive website that takes a critical look at the phenomenon of fake news. 
-                    Currently the website is only working on desktop.
-                    <br><br><a href="https://www.shapedby.news">shapedby.news <br></a style="font-size: 5px">
+                    In this work i dealt with the question how letters would look like if they grew naturally in nature.
                 </p>
             </div>
         </div>
@@ -30,36 +28,34 @@
 
     <!-- Image -->
     <div class="center-container">
-        <img class="image-180" src="images/shapedby/The-whole-pic.jpg"></img>
+        <img class="image-180" src="images/growing-letters/growing-letters-posters.png"></img>
     </div>
 
-    <!-- Text -->
+    <!-- Text 
     <div class="container middle-container">
         <div class="text-container">
             <div class="animate-box">
                 <h3>Challenge</h3>
-                <p>Our worldview is distorted by fake news. In our experience the big city as a methaper for this distorted environment 
-                    should show what a world would look like in which fake news were true and how one can gain knowledge 
-                    by changing one's perspective.
+                <p>Lorem Ipsum
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
 
-    <!-- Image -->
+    <!-- Image 
     <div style="margin-bottom: 10px" class="center-container">
         <img class="image-180" src="images/shapedby/change-perspective.jpg">
     </div>
 
-    <!-- Image -->
+    <!-- Image 
     <div style="margin-bottom: 10px" class="center-container">
         <img class="image-180" src="images/shapedby/we-are-almost-there.jpg">
     </div>
 
-    <!-- Image -->
+    <!-- Image 
     <div class="center-container">
         <img class="image-180" src="images/shapedby/the-whole-picture-text.jpg">
-    </div>
+    </div>-->
 
     <!-- Portfolio Navigation -->
     <?php include './includes/nav-bottom.php';?>

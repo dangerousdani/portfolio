@@ -1,6 +1,5 @@
 body {
   font-family: 'Mukta', sans-serif;
-  font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
@@ -49,7 +48,7 @@ h3 {
 }
 
 a {
-  color: #CCA546;
+  color: #1c1c1c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -57,19 +56,17 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #cabcab;
   outline: none;
-  text-decoration: none;
 }
 
 /* blaue Links */
 
-.blue {
-  color: #007CE5;
+.blacklink {
+  font-style: italic;
 }
 
-.blue:hover {
-  color: #3CA5FD;
+.blacklink:hover {
+  text-decoration: underline 1.5px black;
 }
 
 p {
@@ -123,21 +120,24 @@ p {
 }
 
 .nav-content {
-  width: 80%;
+  width: 90%;
   padding: 20px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-content a{
-  color: black;
+.nav-points {
+  color: #1c1c1c;
   text-decoration: none;
+  margin-left: 15px;
+  font-size: 20px; 
+  font-weight: 200;
 }
 
-.nav-content a:hover{
-  color: #CCA546;
-  text-decoration: none;
+.nav-points:hover{
+  border-bottom: 1px solid #000;
 }
 
 
@@ -176,8 +176,8 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 320px;
+  width: 320px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -268,7 +268,7 @@ p {
 .text-container {
   margin: 0px 0;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   text-align: left;
 }
 
@@ -404,8 +404,17 @@ width: 100%;
 /* Footer */
 
 .new-footer {
-  margin: 50px 0;
+  margin: 0 0 50px 0;
   text-align: center;
+  color: grey;
+}
+
+.imprint {
+  color: grey;
+}
+
+.imprint:hover {
+  border-bottom: 1px solid grey;
 }
 
 .gototop {

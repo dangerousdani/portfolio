@@ -6,7 +6,7 @@
     <?php $myFile = pathinfo('/usr/admin/config/oneshape.php');?>
 </head>
 
-<body>
+<body style="background-color: #F0F0F0">
 
     <?php include './includes/nav-top.php';?>
 
@@ -47,31 +47,13 @@
         <video class="rotation-video" type="video/mp4" autoplay loop muted src="images/oneshape/motion-pattern.mp4" nocontrols></video>
     </div>
 
-    <!-- Text -->
-    <div class="container middle-container">
-        <div class="text-container">
-            <div class="animate-box">
-                <h2 style="color: #DBBCDB;" class="crazy-head">One day I had this shape in my mind and asked myself...</h3>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Image -->
-    <div style="display: flex; flex-wrap: wrap">
+    <div style="display: flex; flex-wrap: wrap; margin-top: 200px">
         <img class="wrap-image-50" src="images/oneshape/typo.svg">
         <img class="wrap-image-50" src="images/oneshape/typo2.svg">
     </div>
 
     <!-- Text -->
-
-    <div class="container middle-container">
-        <div class="text-container">
-            <div class="animate-box">
-                <h2 style="color: #DBBCDB;" class="crazy-head">..what can I get out of it?</h3>
-            </div>
-        </div>
-    </div>
 
         <div style="display: flex; flex-wrap: wrap; margin-top: 200px">
             <img class="wrap-image-25" src="images/oneshape/typo-E.svg">

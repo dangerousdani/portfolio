@@ -9,7 +9,7 @@
         ?>
 </head>
 
-<body>
+<body style="background-color: #F0F0F0">
 
     <?php include './includes/nav-top.php';?>
 
@@ -19,8 +19,8 @@
             <div class="animate-box">
                 <div class="fh5co-heading">
                     <h1>Codar – Corona Tracing App</h1>
-                    <h2 class="subline">Participation in <a class="subline" href="https://wirvsvirus.org/"
-                            target="_blank">WirVsWir Hackathon </a>in March 2020</h2> 
+                    <h2 class="subline">Participation in <a style="color: grey" class="blacklink" href="https://wirvsvirus.org/"
+                            target="_blank">WirVsWir Hackathon</a> in March 2020</h2> 
                     <p class="p-header">As part of the WirVsVirus Hackathon, our team of 5 people prototyped an mobile app 
                         with which it is possible to track chains of infection in order to have 
                         the opportunity to detect and stop them early.

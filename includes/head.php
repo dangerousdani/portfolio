@@ -5,8 +5,8 @@
 	<meta name="keywords" content="design, portfolio, brand, user experience, user interface, illustration, webdesign," />
 	<title>Daniela Vogel</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/_general/Logo-yellow.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/_general/Logo-background.svg">
         
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
