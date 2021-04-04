@@ -5,7 +5,7 @@
 	<?php include './includes/head.php';?>
 </head>
 
-<body>
+<body style="background-color: #F0F0F0"> 
 
 	<?php include './includes/nav-top.php';?>
 
