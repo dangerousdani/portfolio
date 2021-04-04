@@ -18,7 +18,7 @@
             <div class="animate-box">
 
                 <h1 class="head-breaker">City Brand for Bad Neustadt a. d. Saale</h1>
-                <h2 class="subline">Main project HTW Berlin – Prof. Daniela Hensel</h2>
+                <h2 class="subline">Brand Design</h2>
                 <p class="p-header">How can a new, authentic image for the city Bad Neustadt look like and how can public services be designed that strengthen the residents' identification with their city?
                 </p>
             </div>

@@ -18,9 +18,9 @@
         <div class="text-container">
             <div class="animate-box">
                 <h1>The growing letters</h1>
-                <h2 class="subline">Case Study</p>
+                <h2 class="subline">Grafic design case study</p>
                 <p class="p-header">
-                    In this work i dealt with the question how letters would look like if they grew naturally in nature.
+                    In this work I dealt with the question how letters would look like if they grew naturally in nature.
                 </p>
             </div>
         </div>

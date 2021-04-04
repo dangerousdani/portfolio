@@ -14,7 +14,7 @@
         <div class="text-container">
             <div class="animate-box">
                 <h1>One Shape</h1>
-                <h2 class="subline">Case Study</a></h2>
+                <h2 class="subline">Grafic design case study</a></h2>
                 <p class="p-header">In this experiment I applied one shape in many different ways. 
                     The result is various motion patterns and a selection of letters.
                 </p>

@@ -19,7 +19,7 @@
             <div class="animate-box">
                 <div class="fh5co-heading">
                     <h1>Codar – Corona Tracing App</h1>
-                    <h2 class="subline">Participation in <a style="color: grey" class="blacklink" href="https://wirvsvirus.org/"
+                    <h2 class="subline">Brand and User Interface Design <a style="color: grey" class="blacklink" href="https://wirvsvirus.org/"
                             target="_blank">WirVsWir Hackathon</a> in March 2020</h2> 
                     <p class="p-header">As part of the WirVsVirus Hackathon, our team of 5 people prototyped an mobile app 
                         with which it is possible to track chains of infection in order to have 

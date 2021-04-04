@@ -18,7 +18,7 @@
         <div class="text-container">
             <div class="animate-box">
                 <h1>Shaped by news</h1>
-                <h2 class="subline">Main project HTW Berlin – Moritz Schell</h2>
+                <h2 class="subline">Interactive website</h2>
                 <p class="p-header">
                     Together with Thao Phan we created an interactive website that takes a critical look at the phenomenon of fake news. 
                     Currently the website is only working on desktop.

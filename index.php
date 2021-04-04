@@ -9,7 +9,7 @@
 
 	<?php include './includes/nav-top.php';?>
 	<div style="height: 100%; display: flex; align-items: center; justify-content: center; width: 100%; margin: 80px 0 80px 0">
-		<div class="">
+		<div>
 			<div class="flex-row">
 
 				<div class="box text-center animate-box">

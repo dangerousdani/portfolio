@@ -15,7 +15,7 @@
 			<div class="animate-box">
 				<div class="text-left">
 					<img class="profilbild" src="images/_general/profilbild.jpg">
-					<h1>I'm Daniela Vogel, a media desinger based in Berlin, focusing on Brand and User Experience
+					<h1>I'm Daniela, a media desinger based in Berlin, focusing on Brand and User Experience
 						Design.</h1>
 
 					<p class="intro-text">After spending three years working on print pre-production at <a class="blacklink"
