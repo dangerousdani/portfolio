@@ -9,7 +9,7 @@
     ?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
     <?php include './includes/nav-top.php';?>
 
     <!-- Header Section -->
@@ -33,9 +33,7 @@
     <div class="container middle-container">
         <div class="text-container">
             <div class="bottom-line animate-box">
-
-                <h3>Challenge</h3>
-                <p class="section-p">
+                <p class="p-header">
                     The challenge was to find out what makes Bad Neustadt an der Saale unique. 
                     What are the core values ​​that make the city stand out from the surrounding cities? 
                     And in which areas does the city want to position itself more strongly in the future? 
@@ -73,10 +71,10 @@
     <div class="container middle-container">
         <div class="text-container">
             <div class="animate-box">
-                <h3>New Design</h3>
-                <p class="section-p">To translate the mission visually, I used the city's landmark - the Hohntor. 
+                <h3>NEW DESIGN</h3>
+                <p class="p-header">To translate the mission visually, I used the city's landmark – the Hohntor. 
                     In a reduced form, it looks like an arrow, which stands for progress and a guide to the future. 
-                    Multiplied and arranged as a magnetic field, the pattern now obtained represents electromobility, since the 
+                    Multiplied and arranged as a magnetic field, the pattern represents electromobility, since the 
                     magnet is the most important component in an electric motor. At the same time it also represents
                     the strong community of residents, who together drive progress in Bad Neustadt.
             </div>
@@ -91,11 +89,10 @@
         <div class="text-container">
             <div class="animate-box">
 
-                <h3>Service concept</h3>
-                <p> In order to strengthen the citizens' identification with the city, it is important as a city to know the needs 
-                    of the residents in order to be able to respond to them. With the platform I called “Bürgerwunschliste”, residents of 
-                    Bad Neustadt can express their wishes for the city and then vote for one of them. In this way, the city can see 
-                    exactly where the greatest need is and can easily respond to it.</p>
+                <h3>SERVICE CONCEPT</h3>
+                <p class="p-header"> To strengthen the citizens' identification with their city, it's important as a city to know the needs 
+                    of the residents. With the platform I called “Bürgerwunschliste”, residents of Bad Neustadt can express their wishes 
+                    for the city and then vote for one of them. In this way, the mayor can see what the greatest need is and can easily respond to it.</p>
 
             </div>
         </div>

@@ -9,7 +9,7 @@
         ?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
 
     <?php include './includes/nav-top.php';?>
 
@@ -20,13 +20,19 @@
                 <h1>Shaped by news</h1>
                 <h2 class="subline">Interactive website</h2>
                 <p class="p-header">
-                    Together with Thao Phan we created an interactive website that takes a critical look at the phenomenon of fake news. 
-                    Currently the website is only working on desktop.
-                    <br><br><a href="https://www.shapedby.news">shapedby.news <br></a style="font-size: 5px">
+                During the pandemic and the US election 2020 it became more apparent how our surrounding can be shaped by the information we consume every day. 
+                And it is very hard to identify whether the information are true or false. Together with Thao Phan we created an interactive website 
+                that takes a critical look at the phenomenon of fake news. 
+                    <br><br>Visit the city of fake news here!<br><a class="blacklink" href="https://www.shapedby.news">shapedby.news <br></a style="font-size: 5px">
                 </p>
             </div>
         </div>
     </div>
+
+    
+
+
+
 
     <!-- Image -->
     <div class="center-container">
@@ -37,28 +43,28 @@
     <div class="container middle-container">
         <div class="text-container">
             <div class="animate-box">
-                <h3>Challenge</h3>
-                <p>Our worldview is distorted by fake news. In our experience the big city as a methaper for this distorted environment 
-                    should show what a world would look like in which fake news were true and how one can gain knowledge 
-                    by changing one's perspective.
+                <p class="p-header"> The website collects fake news from all over the Internet and visualizes them 
+                    to show how our world could look like when hoax news would be true. We want to show how a new point
+                    of view can help. Instead of feeling overwhelmed in the crowd of information take a step back. See 
+                    everything as a whole to detect the hoaxes before spreading them.
                 </p>
             </div>
         </div>
     </div>
 
     <!-- Image -->
-    <div style="margin-bottom: 10px" class="center-container">
-        <img class="image-180" src="images/shapedby/change-perspective.jpg">
+    <div class="container middle-container margin-bottom-0">
+        <div class="image-container">
+            <img class="wrap-image-45" src="images/shapedby/1_your-world.png">
+            <img class="wrap-image-45" src="images/shapedby/2_seems-off.png">
+        </div>
     </div>
 
-    <!-- Image -->
-    <div style="margin-bottom: 10px" class="center-container">
-        <img class="image-180" src="images/shapedby/we-are-almost-there.jpg">
-    </div>
-
-    <!-- Image -->
-    <div class="center-container">
-        <img class="image-180" src="images/shapedby/the-whole-picture-text.jpg">
+    <div class="container middle-container margin-top-0 margin-bottom-0">
+        <div class="image-container">
+            <img class="wrap-image-45" src="images/shapedby/3_change-perspective.png">
+            <img class="wrap-image-45" src="images/shapedby/4_almost-there.png">
+        </div>
     </div>
 
     <!-- Portfolio Navigation -->

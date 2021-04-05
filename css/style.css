@@ -3,8 +3,9 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
   margin: 0;
+  background-color: #F0F0F0; 
+  overflow-x:hidden;
 }
 
 /* general stuff */
@@ -272,6 +273,15 @@ p {
   text-align: left;
 }
 
+.image-container {
+  margin: 0px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: left;
+}
+
 .intro-container {
   margin: 0px 0;
   max-width: 70%;
@@ -354,6 +364,11 @@ padding: 10px;
   width: 50%;
 }
 
+.wrap-image-45 {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
 .wrap-image-25 {
   width: 25%;
 }
@@ -380,6 +395,22 @@ width: 100%;
   }
     
   .wrap-image-25 {
+    width: 100%;
+  }
+
+  .margin-bottom-0 {
+    margin-bottom: 0px;
+  }
+
+  .margin-top-0 {
+    margin-top: 0px;
+  }
+
+  .image-container {
+    width: 95%;
+  }
+
+  .wrap-image-45 {
     width: 100%;
   }
     

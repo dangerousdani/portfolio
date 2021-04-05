@@ -9,7 +9,7 @@
         ?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
 
     <?php include './includes/nav-top.php';?>
 
@@ -19,10 +19,10 @@
             <div class="animate-box">
                 <div class="fh5co-heading">
                     <h1>Codar – Corona Tracing App</h1>
-                    <h2 class="subline">Brand and User Interface Design <a style="color: grey" class="blacklink" href="https://wirvsvirus.org/"
+                    <h2 class="subline">Brand and User Interface Design for the <a style="color: grey" class="blacklink" href="https://wirvsvirus.org/"
                             target="_blank">WirVsWir Hackathon</a> in March 2020</h2> 
                     <p class="p-header">As part of the WirVsVirus Hackathon, our team of 5 people prototyped an mobile app 
-                        with which it is possible to track chains of infection in order to have 
+                        with which it should be possible to track chains of infection in order to have 
                         the opportunity to detect and stop them early.
                     </p>
                 </div>
@@ -39,8 +39,7 @@
     <div class="container middle-container">
         <div class="text-container">
             <div class="animate-box">
-                <h3>Challenge</h3>
-                <p class="section-p">The design challenge was to visualize the handling and the advantages of the app as clearly as possible. 
+                <p class="p-header">The design challenge was to visualize the handling and the advantages of the app as clearly as possible. 
                     At that time there was also no media coverage of a possible bluetooth app, so the functionality of the app was unknown. 
                     So I created an onboarding which informs the user about the functionality and designed the user interface which should be easy to use.
 
@@ -50,7 +49,7 @@
     </div>
 
     <!-- Image -->
-    <div style="margin-bottom: 10px" class="center-container"><img class="image-180" src="images/codar/codar.png"></div>
+    <div class="center-container"><img class="image-180" src="images/codar/codar.png"></div>
 
     <!-- Image -->
     <div><img style="width: 100%; height: auto" src="images/codar/codar2.jpg"></div>

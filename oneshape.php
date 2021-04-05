@@ -6,7 +6,7 @@
     <?php $myFile = pathinfo('/usr/admin/config/oneshape.php');?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
 
     <?php include './includes/nav-top.php';?>
 
@@ -33,8 +33,7 @@
         <div class="text-container">
             <div class="animate-box">
                 <div>
-                    <h3>Challenge</h3>
-                    <p>How can I create different artefacts out of one shape, which are very different but still seem to belong together? 
+                    <p class="p-header">How can I create different artefacts out of one shape, which are very different but still seem to belong together? 
                        I began to duplicate, rotate and move this shape in place and time. I tried many color combinations and stopped when my Illustrator drawing area was full.
                        Hope you enjoy my final version.
                 </div>
@@ -52,8 +51,6 @@
         <img class="wrap-image-50" src="images/oneshape/typo.svg">
         <img class="wrap-image-50" src="images/oneshape/typo2.svg">
     </div>
-
-    <!-- Text -->
 
         <div style="display: flex; flex-wrap: wrap; margin-top: 200px">
             <img class="wrap-image-25" src="images/oneshape/typo-E.svg">

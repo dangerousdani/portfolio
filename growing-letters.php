@@ -9,7 +9,7 @@
         ?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
 
     <?php include './includes/nav-top.php';?>
 

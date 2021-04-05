@@ -5,7 +5,7 @@
 	<?php include './includes/head.php';?>
 </head>
 
-<body style="background-color: #F0F0F0">
+<body>
 
 	<?php include './includes/nav-top.php';?>
 	<div style="height: 100%; display: flex; align-items: center; justify-content: center; width: 100%; margin: 80px 0 80px 0">
