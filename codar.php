@@ -49,7 +49,7 @@
     </div>
 
     <!-- Image -->
-    <div class="center-container"><img class="image-180" src="images/codar/codar.png"></div>
+    <div class="center-container"><img class="image-180" src="images/codar/codar.jpg"></div>
 
     <!-- Image -->
     <div><img style="width: 100%; height: auto" src="images/codar/codar2.jpg"></div>

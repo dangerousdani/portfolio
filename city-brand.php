@@ -98,7 +98,7 @@
         </div>
     </div>
     <!-- Image -->
-    <div><img style="display: block; width: 100%;  height: auto" src="images/city-brand/city-brand-puplicService.png">
+    <div><img style="display: block; width: 100%;  height: auto" src="images/city-brand/city-brand-puplicService.jpg">
     </div>
 
     <!-- Portfolio Navigation -->

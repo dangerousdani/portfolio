@@ -28,34 +28,13 @@
 
     <!-- Image -->
     <div class="center-container">
-        <img class="image-180" src="images/growing-letters/growing-letters-posters.png"></img>
+        <img class="image-180" src="images/growing-letters/growing-letters-posters.jpg"></img>
     </div>
 
-    <!-- Text 
-    <div class="container middle-container">
-        <div class="text-container">
-            <div class="animate-box">
-                <h3>Challenge</h3>
-                <p>Lorem Ipsum
-                </p>
-            </div>
-        </div>
-    </div>-->
-
-    <!-- Image 
-    <div style="margin-bottom: 10px" class="center-container">
-        <img class="image-180" src="images/shapedby/change-perspective.jpg">
+    <div style="margin-top:100px" class="flex-video-wrapper">
+        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-E-150pro.mp4" nocontrols></video>
+        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-Y-150pro.mp4" nocontrols></video>
     </div>
-
-    <!-- Image 
-    <div style="margin-bottom: 10px" class="center-container">
-        <img class="image-180" src="images/shapedby/we-are-almost-there.jpg">
-    </div>
-
-    <!-- Image 
-    <div class="center-container">
-        <img class="image-180" src="images/shapedby/the-whole-picture-text.jpg">
-    </div>-->
 
     <!-- Portfolio Navigation -->
     <?php include './includes/nav-bottom.php';?>

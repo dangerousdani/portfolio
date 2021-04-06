@@ -14,7 +14,7 @@
 
 				<div class="box text-center animate-box">
 					<a class="work" href="shapedbynews.php">
-						<div class="work-grid" style="background-image:url(images/_thumbnail/shapedby.png);">
+						<div class="work-grid" style="background-image:url(images/_thumbnail/shapedby.jpg);">
 							<div class="inner">
 								<h4>Shaped by News</h4>
 							</div>
@@ -38,7 +38,7 @@
 
 				<div class="box text-center animate-box">
 					<a class="work" href="growing-letters.php">
-						<div class="work-grid" style="background-image:url(images/_thumbnail/the-growing-letters.png);">
+						<div class="work-grid" style="background-image:url(images/_thumbnail/the-growing-letters.jpg);">
 							<div class="inner">
 								<h4>The growing letters</h4>
 							</div>
@@ -58,7 +58,7 @@
 
 				<div class="box text-center animate-box">
 					<a class="work" href="oneshape.php">
-						<div class="work-grid" style="background-image:url(images/_thumbnail/shape.png);">
+						<div class="work-grid" style="background-image:url(images/_thumbnail/shape.jpg);">
 							<div class="inner">
 								<h4>One Shape</h4>
 							</div>

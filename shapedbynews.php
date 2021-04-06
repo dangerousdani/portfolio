@@ -55,15 +55,15 @@
     <!-- Image -->
     <div class="container middle-container margin-bottom-0">
         <div class="image-container">
-            <img class="wrap-image-45" src="images/shapedby/1_your-world.png">
-            <img class="wrap-image-45" src="images/shapedby/2_seems-off.png">
+            <img class="wrap-image-45" src="images/shapedby/1_your-world.jpg">
+            <img class="wrap-image-45" src="images/shapedby/2_seems-off.jpg">
         </div>
     </div>
 
     <div class="container middle-container margin-top-0 margin-bottom-0">
         <div class="image-container">
-            <img class="wrap-image-45" src="images/shapedby/3_change-perspective.png">
-            <img class="wrap-image-45" src="images/shapedby/4_almost-there.png">
+            <img class="wrap-image-45" src="images/shapedby/3_change-perspective.jpg">
+            <img class="wrap-image-45" src="images/shapedby/4_almost-there.jpg">
         </div>
     </div>
 
