@@ -6,8 +6,6 @@
         <div>
             <a class="nav-points" style="margin-left: 0" href="index.php">WORK</a>
             <a class="nav-points" href="about.php">ABOUT</a>
-            <a class="nav-points" href="https://www.instagram.com/machtvogel/?hl=de">INSTAGRAM</a>
-            <a class="nav-points" href="https://www.linkedin.com/in/daniela-vogel/">LINKEDIN</a>
             <a class="nav-points" href="mailto:mail@danielavogel.com">MAIL</a>
         </div>
     </div>

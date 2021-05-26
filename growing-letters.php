@@ -27,14 +27,23 @@
     </div>
 
     <!-- Image -->
-    <div class="center-container">
+    <div class="center-container" style="margin: 0 0 300px 0">
         <img class="image-180" src="images/growing-letters/growing-letters-posters.jpg"></img>
     </div>
-
-    <div style="margin-top:100px" class="flex-video-wrapper">
-        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-E-150pro.mp4" nocontrols></video>
-        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-Y-150pro.mp4" nocontrols></video>
+    <div style="margin-top:0px; padding-bottom:300px; width: 100%; display: flex; justify-content: center" class="flex-video-wrapper">
+        <div style="width: 60%; display: flex; justify-content: center">
+        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-HEY.mp4" nocontrols></video>
+        </div>
     </div>
+    <div style="margin-top:0px" class="flex-video-wrapper">
+        <video class="wrapper-video" type="video/mp4" autoplay loop muted src="images/growing-letters/video-H.mp4" nocontrols></video>
+    </div>
+    <div style="margin: 0px" class="flex-video-wrapper">
+        <video class="wrapper-video" style="margin: 0" type="video/mp4" autoplay loop muted src="images/growing-letters/video-E.mp4" nocontrols></video>
+        <video class="wrapper-video" style="margin: 0" type="video/mp4" autoplay loop muted src="images/growing-letters/video-Y.mp4" nocontrols></video>
+    </div>
+
+
 
     <!-- Portfolio Navigation -->
     <?php include './includes/nav-bottom.php';?>
