@@ -19,6 +19,7 @@
 						<a class="nav-points" target="_blank" href="https://www.instagram.com/machtvogel/?hl=de">INSTAGRAM</a>
 						<a class="nav-points" target="_blank" href="https://www.behance.net/vogeldaniela">BEHANCE</a>
             			<a class="nav-points" target="_blank" href="https://www.linkedin.com/in/daniela-vogel/">LINKEDIN</a>
+            			<a class="nav-points" target="_blank" href="https://github.com/dangerousdani">GITHUB</a>
         			</div>
 					<h1>I'm Daniela, a media desinger based in Berlin, focusing on Brand and User Experience
 						Design.</h1>
