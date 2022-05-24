@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="design, portfolio, brand, user experience, user interface, illustration, webdesign," />
+	<title>Lost in Truncation</title>
+
+    <link rel="icon" type="image/png" href="#">
+        
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/tee2ntl.css">
+</head>
+
+<body style="background-color: black; height: 100%">
+
+	<div style="height: 100%" id="wrapper">
+		<div style="height: 100%" id="questions">
+
+			<!-- Intro -->
+			<div style="height: 100%" id="q0">
+				<div style="position: absolute; top: 0; left: 0; z-index: 100; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+					<h1 style="width: 100%; font-size: 110px; text-align: center; line-height: 115px; margin-top: 20px">LOST IN TRUNCATION</h1>
+					<button class="btn" style="width: 300px" onclick="next()">START</button>
+				</div>
+				<div style="height: 100vh; min-height: 100vh">
+					<video id="player" style="height: 100vh; width: auto" muted autoplay src="/img/LIT_Site_Landing_Clip.mp4"></video>
+				</div>
+				
+			</div>
+
+
+			<!-- Photo -->
+			<div id="q1" style="display: none">
+				<div class="container">
+					<div class="cameraContainer">
+						<img class="svgContainer" src="/img/Schablone.png" width="200" height="200">
+						<canvas class="canvasContainer" id="canvas" class="d-none"></canvas>
+						<video class="videoContainer" id="webcam" autoplay playsinline width="640" height="480"></video>
+					</div>
+				</div>
+
+				<div class="container">
+					<button style="margin-right: 10px"class="btn" onclick="webcam.snap()">Take a photo</button>
+					<button style="margin-left: 10px" class="btn" onclick="upload(); next()">Start the journey</button>
+				</div>
+			</div>
+
+			<!-- Questions -->
+			<div id="q2" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">1/6</h2>
+					<h1>Your Job could be replaced by AI in the future. How does that make you feel?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would be very much okay with an AI replacing their professional position. It can be concluded, that they have a low work ethic and are reluctant to labour in general. Furthermore, it seems like'>Finally, more time for me</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they do not believe that their professional position could ever be replaced by Artificial Intelligence. It can be concluded, that the participant does not believe in the future advancement of technology. This could be a problematic personality trait. Furthermore, it seems like'>I don’t believe that this could happen</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they do not worry about their professional position. The advancement of technology will generate new jobs. It can be concluded, that the participant is loyal to the societal and capitalist system and will possibly not pose a threat to technological advancement in the future. Furthermore, it seems like'>I’m not worried. There will be new jobs.</button>
+			</div>
+
+			<div id="q3" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">2/6</h2>
+					<h1>Which of these places would you prefer to travel to?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer Bali as their next travel destination. It can be concluded, that they have accumulated enough monetary wealth to be able to travel long-distance. It can also be said, that they don’t seem to care about environmental issues. This could be an issue in the future, when individual environmental decisions need to be made conciously. Furthermore, it seems like'>Bali</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer Allgäu as their next travel destination. It can be concluded, that the participant has some patriotic qualities and feels a certain connection to Germany. This could be an issue in the future, because their connection to Germany could have an effect on their political views. Furthermore, it seems like'>Allgäu</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer Paris as their next travel destination. It can be concluded, that the participant is a very ambitious person. However, they do have a high desire for self-actualization. This could be an issue in the future, because they may behave in a problematic, ostentatious way at certain times. Furthermore, it seems like'>Paris</button>
+			</div>
+
+			<div id="q4" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">3/6</h2>
+					<h1>Which of these diets do you follow?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they are eating a vegan diet. Given that they do not consume any animal products, the participant can be classified as an Idealist. The participant seems to be ranking high in terms of moral decision-making. They value animal rights highly. However, they may also show signs of dissidence. Furthermore, it seems like'>Vegan</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they are eating a vegetarian diet. They do not consume any meat or fish. Given that they still consume dairy products, the participant can be classified as a Hypocrite. The participant seems to be ranking averagely in terms of moral decision-making. They claim to value animal rights, however they are still consuming a variety of animal products. Furthermore, it seems like'>Vegetarian</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they are eating everything, including meat and dairy products. Given that they consume all animal products, the participant can be classified as unethical person. The participant seems to be ranking low in terms of moral decision-making. They do not value animal-rights. Furthermore, it seems like'>I eat everything</button>
+			</div>
+
+			<div id="q5" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">4/6</h2>
+					<h1>Which of these meals would you eat for breakfast?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer Porrdige with fruit for breakfast. It can be concluded, that the participant is living a healthy lifestyle and has a healthy diet overall. Their diet probably contains food with low saturated fats and low glycemic index. Furthermore, it seems like'>Oatmeal with fruit</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer Bacon and Eggs for breakfast. It can be concluded, that the participant has a regular diet, which is rather unhealthy, and is not aware of how food impacts overall health. Their diet probably contains food with high saturated fats and high glycemic index. Furthermore, it seems like'>Bacon and Eggs</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would prefer a cup of coffee and a cigarette for breakfast. It can be concluded, that the participant is living a unhealthy lifestyle and has an unhealthy diet overall. In addition, it seems like the participant may have a nicotine addiction. Furthermore, it seems like'>Cup of Coffee and a Cigarette</button>
+			</div>
+
+			<div id="q6" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">5/6</h2>
+					<h1>What monthly income would satisfy you, if you would only have to pay for your own needs?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would be able to satisfy their needs with 1900 € or less in one month. It can be concluded, that the participant does not value their own work in monetary worth as much as other participants do. In addition, it seems that they do not consume products and goods as much as other participants do. This could be an issue in the future, because the participants may be opposed to capitalism in general. Furthermore, it seems like'>1900 EUR or less </button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would be able to satisfy their needs with 2000 to 3500 € in one month. It can be concluded, that the participant seems to be well aware of what they can achieve within the system, and are loyal to capitalism. In addition, the participants consumes products and goods on a medium to high level. This makes them a suitable part of societies workforce. Furthermore, it seems like'>1900 EUR – 3500 EUR</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would be able to satisfy their needs with 3500 € or more in one month. This would make the participant part of the top 10 % wealthiest people in Germany. It can be concluded, that the participant has grown up in a wealthy family and is enjoying plenty of privileges along with it. In addition, the participant consumes products and goods of high quality on a high level. This makes them a suitable part of societies workforce. Furthermore, it seems like'>3500 EUR or more</button>
+			</div>
+
+			<div id="q7" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">6/6</h2>
+					<h1>Would you make an immoral decision, if it would benefit a lot of people?</h1>
+				</div>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would definitely make an immoral decision, if it had a benefit for a lot of people. It can be concluded, that the participant has very low levels of moral, kindness and apathy, given that their decision could have a negative impact on other people. Furthermore, it seems like'>Absolutely, especially if it had a huge benefit overall.</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would normally not make an immoral decision. However, if an exceptional situation really called for an immoral decision, they would make an immoral decision. It can be concluded, that the participant has high levels of hypocisy and is claiming higher values than they actually have. In addition, it can be said that their values may easily be swayed. Furthermore, it seems like'>Normally I wouldn’t. But if it is an exceptional situation, then I would.</button>
+				<button type="button" class='btn' onclick='storeVar(this); next()' value='The participant has stated, that they would never make an immoral decision. It can be concluded, that the participant has very high levels of moral, kindness and apathy. However, the participants statement should be viewed critically, because the answer they have given could very much differ from their true values. Furthermore, it seems like'>No. I would never make an immoral decision.</button>
+			</div>
+
+			<div id="q8" style="display: none">
+				<div style="height: 50vh">
+					<h2 style="width: 100%; margin-top: 50px; margin-bottom: 100px">Finished</h2>
+					<h1>Your image will be generated now. This will take a few seconds.
+						Your data is safe with us.
+					</h1>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/webcam-easy.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

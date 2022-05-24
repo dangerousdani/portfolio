@@ -8,6 +8,15 @@
 <body>
 
 	<?php include './includes/nav-top.php';?>
+	<div style="height: 100vh; width: 100vw">
+       <video style="position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;" type="video/mp4" autoplay loop muted src="images/oneshape/motion-pattern.mp4" nocontrols></video>
+    </div> 
+
+	<!--
 	<div style="height: 100%; display: flex; align-items: center; justify-content: center; width: 100%; margin: 80px 0 80px 0">
 		<div>
 			<div class="flex-row">
@@ -68,10 +77,10 @@
 
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<!-- Footer -->
-	<?php include './includes/footer.php';?>
+	
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
