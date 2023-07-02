@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-icon" sizes="180x180" href="/favicon_io3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io3/favicon-16x16.png">
+    <title>Daniela Vogel</title>
+    
+</head>
+
+<body style="background-color: #c2cdc7;">
+    
+    <div class="myNavigation">
+        
+        <div class="nameWrapper">
+            <h1><a href="index.html" style="text-decoration: none">daniela vogel</a></h1>
+        </div>
+
+        <div class="informationWrapper" id="information">
+            <p id="credits" style="width: 100%; height: 100%; margin:0; padding-top: auto; padding-bottom: auto;">w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler</p>
+            <p style="white-space: nowrap; margin:0 10px 0 10px" id="title">| Deutsche Oper</p>
+            <img onClick="closeCarousel()" height="20px" widht="20px" style="transform: rotate(45deg);" src="images/plus_black.png">        
+        </div>
+
+    </div>
+    
+    <div id="backgroundWrapper">
+
+        <div class="contentWrapper" >
+            <div class="projectText">
+                <p> latest projects: 
+                    <br>In The Eye of Human
+                    <br><a href="https://stanhema.com/de/projekte/deutsche-oper-berlin-saison-22-23" traget="_blank">Deutsche Oper Saison 22/23</a>
+                    <br>Lost in Truncation</p>
+                            
+                <p> Exhibitions:
+                    <!--<br>Ars Electronica Linz 2023 (come by!)-->
+                    <br><a href="https://exhibitions.htw-berlin.de/arselectronica2021/index.html#LostInTruncation" target="_blank">Ars Electronica Garden Berlin 2021</a>
+                    <br><a href="https://futurium.de/de/veranstaltung/human-machine-interfaces-ein-dialog-mit-kuenstlicher-intelligenz/human-machine-interfaces-ein-dialog-mit-kuenstlicher-intelligenz" target="_blank">Futurium Berlin 2021</a>
+                </p>
+                <p> generative Tools:
+                    <br><a href="/explodeFont.html">explode Font</a>
+                    <!--<br>constuct-->
+                </p>
+            </div>
+
+            <div class="thumbnailWrapper"> 
+                       
+                        
+                        <img class="thumbnail" src="/images/_thumbnail/Nerf-astethik_v1.jpg">
+                        <img class="thumbnail" src="/images/_thumbnail/DOB_Wanne.jpg">
+                        <video class="thumbnail" playsinline muted autoplay loop><source src="/images/_thumbnail/M_Animation.mp4" type="video/mp4"></video>
+
+                        <video class="thumbnail" playsinline muted autoplay loop><source src="/images/_thumbnail/gear_font.mp4" type="video/mp4"></video>
+                        <img class="thumbnail" src="/images/_thumbnail/bachelorarbeit.jpg">
+                        <img class="thumbnail" src="/images/_thumbnail/explodingFont_H.jpg">
+
+                        <img class="thumbnail plus" onclick="openCarouselAt(1)" src="/images/_thumbnail/dob0.jpg">
+                        <video class="thumbnail plus" onclick="openCarouselAt(1)" playsinline muted autoplay loop><source src="/images/_thumbnail/dob2.mp4" type="video/mp4"></video>
+                        <img class="thumbnail plus" onclick="openCarouselAt(1)" src="/images/_thumbnail/dob1.jpg">
+                        
+                        <img class="thumbnail" src="/images/_thumbnail/jahreskartestanhema.jpg">
+                        <img class="thumbnail" src="/images/_thumbnail/pan0.jpg">
+                        <img class="thumbnail plus" onclick="openCarouselAt(11)" src="/images/_thumbnail/lostintruncation1.jpeg">
+
+                        <img class="thumbnail" src="/images/_thumbnail/pan1.jpg">
+                        <video class="thumbnail" playsinline muted autoplay loop><source src="/images/_thumbnail/newyearscard_black.mp4" type="video/mp4"></video>
+                        <img class="thumbnail" src="/images/_thumbnail/ascii0.jpg">
+                        
+                        <video class="thumbnail plus" onclick="openCarouselAt(12)" playsinline muted autoplay loop><source src="/images/_thumbnail/lostintruncation3.mp4" type="video/mp4"></video>
+                        <img class="thumbnail" src="/images/_thumbnail/foto0.jpg">
+                        <img class="thumbnail" src="/images/_thumbnail/newyearscard2.jpg">
+
+                        <video class="thumbnail" playsinline muted autoplay loop><source src="/images/_thumbnail/oneshape2.mp4" type="video/mp4"></video>
+                        <img class="thumbnail plus" onclick="openCarouselAt(12)" src="/images/_thumbnail/lostintruncation0.jpg">
+                        <video class="thumbnail sound" onclick="soundOn()" id="movingLines" playsinline muted autoplay loop><source src="/images/_thumbnail/moving-lines.mp4" type="video/mp4"></video>
+                        
+                        <img class="thumbnail" src="/images/_thumbnail/virus0.jpeg">
+                        <video class="thumbnail sound" onclick="soundOn()" id="growingLetters" height="auto" playsinline muted autoplay loop width: 200px; height: 200px; object-fit: cover><source src="/images/_thumbnail/growingletters1.mp4" type="video/mp4"></video>
+                        <img class="thumbnail" src="/images/_thumbnail/texture1.jpg">
+                        
+                        <video class="thumbnail" height="auto" playsinline muted autoplay loop width: 200px; height: 200px; object-fit: cover><source src="/images/_thumbnail/newyearscard.mp4" type="video/mp4"></video>
+                        <img class="thumbnail" src="/images/_thumbnail/oneshape.svg">
+                        <img class="thumbnail" src="/images/_thumbnail/aitextures2.jpg">
+
+                        <img class="thumbnail" src="/images/_thumbnail/aitexture0.jpeg">
+                        <img class="thumbnail plus" onclick="openCarouselAt(17)" src="/images/_thumbnail/growingletters2.jpg">
+                        <img class="thumbnail" src="/images/_thumbnail/shapedby1.jpeg">
+                        
+                        
+            </div>
+            
+        </div>
+    </div>
+   
+    <div id="imageCarousel" style="display: none">
+
+        <div style="position: fixed; top: 0; width: 100%; height: 100%; background-color: black"></div>
+
+        <!--1-->
+        <div class="zoomImages cover">
+            <p class="coverText">Deutsche Oper<br>Saison<br>22/23</p>
+        </div>
+        <video class="zoomImages" playsinline muted autoplay loop><source src="/images/DOB/DOB_mockup_v1.mp4" type="video/mp4"></video>
+        <img class="zoomImages" src="/images/DOB/Frame1.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame2.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame3.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame9.jpg">
+
+        <video class="zoomImages" playsinline muted autoplay loop><source src="/images/DOB/DOB_Herodiade_text.mp4" type="video/mp4"></video>
+        <img class="zoomImages" src="/images/DOB/Frame7.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame8.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame4.jpg">
+        <img class="zoomImages" src="/images/DOB/Frame11.jpg">
+        
+        <!--2-->
+        <div class="zoomImages cover">
+            <p class="coverText">Lost<br>in<br>Truncation</p>
+        </div>
+
+        <img class="zoomImages" src="/images/LostInTruncation/Frame7.jpg">
+        <video class="zoomImages" playsinline muted autoplay loop><source src="/images/LostInTruncation/LostinTruncation_Morph.mp4" type="video/mp4"></video>
+        <img class="zoomImages" src="/images/LostInTruncation/Frame9.jpg">
+        <video class="zoomImages" playsinline muted autoplay loop><source src="/images/LostInTruncation/LostinTruncation_trailer.mp4" type="video/mp4"></video>
+
+        <!--3-->
+        <div class="zoomImages cover">
+            <p class="coverText">The<br>growing<br>letters</p>
+        </div>
+        <video  class="zoomImages" playsinline muted autoplay loop><source src="/images/growing-letters/video-H.mp4" type="video/mp4"></video>
+        <video  class="zoomImages" playsinline muted autoplay loop><source src="/images/growing-letters/video-E.mp4" type="video/mp4"></video>
+        <video  class="zoomImages" playsinline muted autoplay loop><source src="/images/growing-letters/video-Y.mp4" type="video/mp4"></video>
+        
+    </div>
+       
+   
+    <script>
+        
+        //Generate Hight of Scroll Box for the image carousel
+
+        let elements = document.querySelectorAll(".zoomImages");
+        let scrollImageHeight = 2000; //scroll height per image = duration how slow a image is scaled during scrolling
+        let scrollBoxHeight = elements.length*scrollImageHeight;
+        document.getElementById("imageCarousel").style.height = scrollBoxHeight + "px";
+
+        //TEXT
+
+        let title = [
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Deutsche Oper Saison 22/23",
+                "Lost in Truncation",
+                "Lost in Truncation",
+                "Lost in Truncation",
+                "Lost in Truncation",
+                "Lost in Truncation",
+                "The Growing Letters",
+                "The Growing Letters",
+                "The Growing Letters",
+                "The Growing Letters",
+                "The Growing Letters",
+                "The Growing Letters",
+            ];
+
+        let credits = [
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "w/f Stan Hema, with Peer Hempel, André van Rueth, Thomas Spieler",
+                "with Jessica Dierich",
+                "with Jessica Dierich",
+                "with Jessica Dierich",
+                "with Jessica Dierich",
+                "with Jessica Dierich",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+        ]
+
+        //Open and Close Image Carousel, and check at which scroll position to start depending on the thumbnail which was clicked
+
+        let start;
+
+        function openCarouselAt(startValue) {
+
+            document.getElementById("information").style.display = "flex";
+            document.getElementById("imageCarousel").style.display = "flex";
+
+            start = startValue;
+            window.scrollTo({
+                top: scrollImageHeight*start //project number 5 means check how many images the projects before have and calculate position
+            });
+        }
+
+        function closeCarousel() {
+            
+            document.getElementById("information").style.display = "none";
+            document.getElementById("imageCarousel").style.display = "none";
+            
+            window.scrollTo({
+                top: 0 //project number 5 means check how many images the projects before have and calculate position
+            });
+        }
+       
+        function soundOn() {
+
+            if (document.getElementById(String(event.srcElement.id)).muted == true) {
+                document.getElementById(String(event.srcElement.id)).muted = false;         
+            } else {
+                document.getElementById(String(event.srcElement.id)).muted = true;
+            }
+        }
+
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            if (evt.keyCode == 27) {
+                closeCarousel()
+            }
+        };
+
+        // Animate Scale of images while scrolling
+        window.onscroll = function() {
+    
+            const vh = 0; //Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+            var scrollProgress = window.pageYOffset/(scrollBoxHeight-vh); //value between 0 and 1
+            console.log(scrollProgress);
+            
+            const ScrollProgressMin = (1/elements.length);
+            if (scrollProgress < ScrollProgressMin) {
+                    scrollProgress = ScrollProgressMin;
+                }
+
+            const imageIndex = elements.length;
+
+            var clientHeight = document.getElementById('imageCarousel').clientHeight;
+
+            for (let i = 0; i < elements.length; i++) {
+
+                const elementScrollProgress = (scrollProgress - i/elements.length)*elements.length; //i = 0 > elementScrollProgress 0 // i = 1 > elementScrollProgress = 0.3
+                const clampedScrollProgress = Math.max(Math.min(elementScrollProgress, 1), 0); //Scaling
+
+                elements[i].style.transform = "scale(" + clampedScrollProgress + ")";
+
+                //INFORMATION
+                const informationID = Math.floor(scrollProgress*elements.length);
+                document.getElementById('title').textContent = title[informationID]; //project number change content
+                document.getElementById('credits').textContent = credits[informationID]; //project number change content
+                
+            }
+        };
+
+    </script>
+
+</body>
+</html>
