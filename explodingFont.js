@@ -1,4 +1,5 @@
 let font;
+let renderer;
 function preload() {
     font = loadFont("fonts/Arial.ttf");
 }
@@ -6,7 +7,7 @@ function preload() {
 //UI ELEMENTS
 
 let uiPositionX= 10;
-let uiSpacing = 60;
+let uiSpacing = 50;
 
 let letters = "yes!";
 let rectSize = 200;
@@ -23,16 +24,16 @@ let mySpeed = 0.07;
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  renderer = createCanvas(windowWidth, windowHeight);
   frameRate(30)
 
-  sliderSamplingY = windowHeight - uiSpacing;
-  sliderRectSizeY = windowHeight - uiSpacing*2;
-  sliderFontSizeY = windowHeight - uiSpacing*3;
-  sliderStrokeWeightY = windowHeight - uiSpacing*4;
-  let radioColorY = windowHeight - uiSpacing*5;
-  let radioShapeY = windowHeight - uiSpacing*6;
-  inputFiledY = windowHeight - uiSpacing*7;
+  sliderSamplingY = windowHeight - uiSpacing*2;
+  sliderRectSizeY = windowHeight - uiSpacing*3;
+  sliderFontSizeY = windowHeight - uiSpacing*4;
+  sliderStrokeWeightY = windowHeight - uiSpacing*5;
+  let radioColorY = windowHeight - uiSpacing*6;
+  let radioShapeY = windowHeight - uiSpacing*7;
+  inputFiledY = windowHeight - uiSpacing*8;
   
   let inp = createInput('yes!');
   inp.position(uiPositionX, inputFiledY);
@@ -81,12 +82,20 @@ function setup() {
   sliderSampling = createSlider(0.05, 0.3, 0.05, 0.05);
   sliderSampling.position(uiPositionX, sliderSamplingY);
   sliderSampling.style('width', '80px'); 
+
+  //DOWNLOAD BUTTON
+  downloadButton = createButton('Download');
+  downloadButton.position(10, sliderSamplingY+35);
+  downloadButton.mousePressed(() => {
+    save('output.png');
+  });
 }
 
 function draw() {
 
-   
-  
+  clear();
+  //renderer.drawingContext.__clearCanvas();
+
   let myRectSize= sliderRectSize.value();
   var p1 = { x:  -myRectSize, y:  -myRectSize };
   var p2 = { x: myRectSize, y: -myRectSize }; 

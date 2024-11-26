@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Die Farbik Chemnitz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- P5js Lib -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    </head>
+
+<body>
+     <!--Navigation-->
+     <div style="width: 100%; position: absolute; top: 0px; left: 0px;">
+        <div style="display: flex; justify-content: space-between; padding: 10px">
+            <img style="height: 62px" src="img/DFC_Wortmarke_Black.png">
+            <div style="display: flex; align-items: center;">
+                <a class="navElement">die fabrik</a>
+                <a class="navElement">memberships</a>
+                <a class="navElement">events</a>
+                <a class="navElement">team</a>
+            </div>
+        </div>
+    </div>  
+   
+    <!-- Keyvisual output here -->
+    <div id="canvas-container"></div>
+
+    <!--CTA Button-->
+    <div class="cta-Button">
+        <button id="toggle" class="toggle" style="display: flex; align-items: center;" onclick="myFunction()">
+            <img id="plus" style="display: block" width="65px" height="65px" src="img/PLUS.svg">
+            <div id="keyvis__close" style="display: none"></div>
+        </button>
+        <p id="label" class="label roundStyle border">join us!</p>
+        <a id="joinButton" class="joinButton roundStyle border" href="membership.html">member werden</a>
+    </div>
+
+    <!-- P5js Sketch -->
+    <script src="js/keyvisual.js"></script>
+</body>
+</html>
