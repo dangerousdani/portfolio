@@ -119,7 +119,7 @@ a:hover {
 
 .thumbnail {
   width: 100%;
-  padding: 0.75%;
+  margin: 0.25%;
 }
 
 
@@ -265,22 +265,38 @@ input[type='range']::-webkit-slider-thumb {
   
 }
 
-.plus {
-  cursor: url('/images/plus_black.svg') , pointer;
+.image-container {
+  position: relative;
+  display: inline-block;
 }
 
-.plus:hover{
-  cursor: url('/images/plus_black.svg') 40 40, pointer;
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-
-
-.sound {
-  cursor: url('/images/sound_black.png') 60 30, pointer;
+.plus-button {
+  cursor: pointer; 
+  position: absolute;
+  bottom: 0px; /* Abstand vom unteren Rand */
+  right: 0px; /* Abstand vom rechten Rand */
+  width: 20px; /* Breite des Buttons */
+  height: 20px; /* Höhe des Buttons */
+  background-color: #000; /* Hintergrundfarbe */
+  color: #C2CDC7; /* Textfarbe */
+  font-size: 20px; /* Schriftgröße für das Plus */
+  line-height: 18px; /* Vertikale Ausrichtung des Textes */
+  text-align: center;
+  text-decoration: none; /* Entfernt den Unterstrich */
+  transform-origin: bottom right;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animationen */
 }
 
-#cursor {
-  transform-origin: top left;
+.plus-button:hover {
+  background-color: #554144; /* Farbe bei Hover */
+  transform: scale(3); /* Vergrößerung bei Hover */
+  color: #C2CDC7;
 }
 
 
@@ -293,6 +309,10 @@ input[type='range']::-webkit-slider-thumb {
   :root {
     --nav-height: 60px;
   }
+
+  .myNavigation {
+    /*background-color: transparent; */
+  } 
 
   p {
     font-size: 20px; 
@@ -310,7 +330,7 @@ input[type='range']::-webkit-slider-thumb {
 
   .cvWrapper p{
     position: sticky;
-   top: var(--nav-height);
+    top: var(--nav-height);
   }
 
   .thumbnailWrapper {

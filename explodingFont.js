@@ -205,7 +205,7 @@ function calculateIntersection(p1, p2, p3, p4) {
   	var d  = c3x * c2y - c3y * c2x;
   
   	if (d == 0) {
-    	throw new Error('Number of intersection points is zero or infinity.');
+    	console.log('Number of intersection points is zero or infinity.');
     }
   
   	// upper part of intersection point formula
