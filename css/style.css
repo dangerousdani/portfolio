@@ -299,6 +299,17 @@ input[type='range']::-webkit-slider-thumb {
   color: #C2CDC7;
 }
 
+.mybutton {
+  cursor: pointer; 
+  background-color: black; 
+  color: #C2CDC7;
+}
+
+.mybutton:hover {
+  cursor: pointer; 
+  background-color: #554144; 
+  color: #C2CDC7;
+}
 
 
 
@@ -311,14 +322,9 @@ input[type='range']::-webkit-slider-thumb {
   }
 
   .myNavigation {
-    /*background-color: transparent; */
+    background-color: transparent;  
   } 
-
-  p {
-    font-size: 20px; 
-    line-height: 22px; 
-  }
-
+  
   .contentWrapper {
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -332,6 +338,11 @@ input[type='range']::-webkit-slider-thumb {
   .cvWrapper p{
     position: sticky;
     top: var(--nav-height);
+  }
+
+  p {
+    font-size: 20px; 
+    line-height: 22px; 
   }
 
   .thumbnailWrapper {
@@ -352,7 +363,7 @@ input[type='range']::-webkit-slider-thumb {
 
 
   .thumbnail {
-    width: 26%;
+    width: 32%;
   }
 
   .titelWidth {
